@@ -137,7 +137,7 @@ select:focus {
 .task-item {
   padding: 1rem;
   margin-bottom: 0.75rem;
-  border: 1px solid var(--pico-muted-border-color, #ddd);
+  border: 2px solid var(--pico-muted-border-color, #ddd);
   border-radius: 4px;
   display: flex;
   justify-content: space-between;
