@@ -1,0 +1,27 @@
+{
+    "codeVersion": "0.8.2",
+    "configuration": {
+        "inputDirsDestPaths": "[.]",
+        "jarConfig": "{\"mainClassFqn\":\"org.jetbrains.amper.ktor.ApplicationKt\"}",
+        "outputJarPath": "C:\\Users\\User\\Documents\\GitHub\\comp2850-hci-starter\\wk06\\KtorFramework\\build\\tasks\\_KtorFramework_jarJvm\\KtorFramework-jvm.jar"
+    },
+    "inputs": [
+        "C:\\Users\\User\\Documents\\GitHub\\comp2850-hci-starter\\wk06\\KtorFramework\\build\\tasks\\_KtorFramework_compileJvm"
+    ],
+    "inputsState": {
+        "C:\\Users\\User\\Documents\\GitHub\\comp2850-hci-starter\\wk06\\KtorFramework\\build\\tasks\\_KtorFramework_compileJvm\\META-INF\\main.kotlin_module": "size 78 mtime 2025-11-18T23:22:22.217314Z",
+        "C:\\Users\\User\\Documents\\GitHub\\comp2850-hci-starter\\wk06\\KtorFramework\\build\\tasks\\_KtorFramework_compileJvm\\application.yaml": "size 135 mtime 2025-11-18T22:41:19.801828Z",
+        "C:\\Users\\User\\Documents\\GitHub\\comp2850-hci-starter\\wk06\\KtorFramework\\build\\tasks\\_KtorFramework_compileJvm\\logback.xml": "size 425 mtime 2025-11-18T22:41:19.8028593Z",
+        "C:\\Users\\User\\Documents\\GitHub\\comp2850-hci-starter\\wk06\\KtorFramework\\build\\tasks\\_KtorFramework_compileJvm\\org\\jetbrains\\amper\\ktor\\ApplicationKt.class": "size 1072 mtime 2025-11-18T23:22:22.2068905Z",
+        "C:\\Users\\User\\Documents\\GitHub\\comp2850-hci-starter\\wk06\\KtorFramework\\build\\tasks\\_KtorFramework_compileJvm\\org\\jetbrains\\amper\\ktor\\RoutingKt$configureRouting$1$1.class": "size 3597 mtime 2025-11-18T23:22:22.2093428Z",
+        "C:\\Users\\User\\Documents\\GitHub\\comp2850-hci-starter\\wk06\\KtorFramework\\build\\tasks\\_KtorFramework_compileJvm\\org\\jetbrains\\amper\\ktor\\RoutingKt.class": "size 2051 mtime 2025-11-18T23:22:22.2078728Z"
+    },
+    "outputs": [
+        "C:\\Users\\User\\Documents\\GitHub\\comp2850-hci-starter\\wk06\\KtorFramework\\build\\tasks\\_KtorFramework_jarJvm\\KtorFramework-jvm.jar"
+    ],
+    "excludedOutputs": [],
+    "outputsState": {
+        "C:\\Users\\User\\Documents\\GitHub\\comp2850-hci-starter\\wk06\\KtorFramework\\build\\tasks\\_KtorFramework_jarJvm\\KtorFramework-jvm.jar": "size 5308 mtime 2025-11-18T23:22:22.3156167Z"
+    },
+    "outputProperties": {}
+}

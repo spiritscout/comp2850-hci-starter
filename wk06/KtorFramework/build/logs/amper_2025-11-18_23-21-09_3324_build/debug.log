@@ -1,0 +1,258 @@
+JetBrains Amper version 0.8.2 (fed2d26, 2025-11-17)
+running on Windows 10 10.0 jvm arch amd64
+
+00:03.062 DEBUG                           AmperBackend              Selected tasks to compile: :KtorFramework:compileJvm :KtorFramework:compileJvmTest :KtorFramework:jarJvm
+00:03.084 DEBUG :KtorFramework:resolveDependenciesJvmTest ResolveExternalDependenciesTask resolve dependencies KtorFramework -- main test -- ch.qos.logback:logback-classic:1.5.18 io.ktor:ktor-bom:3.2.3 io.ktor:ktor-server-config-yaml:3.2.3 io.ktor:ktor-server-core:3.2.3 io.ktor:ktor-server-netty:3.2.3 io.ktor:ktor-server-test-host:3.2.3 org.jetbrains.kotlin:kotlin-stdlib:2.2.10 org.jetbrains.kotlin:kotlin-test-junit5:2.2.10 -- resolvePlatform=jvm nativeTarget=null wasmTarget=null
+00:03.084 DEBUG :KtorFramework:resolveDependenciesJvm ResolveExternalDependenciesTask resolve dependencies KtorFramework -- main -- ch.qos.logback:logback-classic:1.5.18 io.ktor:ktor-bom:3.2.3 io.ktor:ktor-server-config-yaml:3.2.3 io.ktor:ktor-server-core:3.2.3 io.ktor:ktor-server-netty:3.2.3 org.jetbrains.kotlin:kotlin-stdlib:2.2.10 -- resolvePlatform=jvm nativeTarget=null wasmTarget=null
+00:03.117 DEBUG :KtorFramework:resolveDependenciesJvm IncrementalCache          [inc] up-to-date according to state file at 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\incremental.state\_KtorFramework_resolveDependenciesJvm-2cbc14eb46' in 24.303600ms
+00:03.117 DEBUG :KtorFramework:resolveDependenciesJvm IncrementalCache          [inc] ':KtorFramework:resolveDependenciesJvm' is up-to-date
+00:03.121 DEBUG :KtorFramework:resolveDependenciesJvmTest IncrementalCache          [inc] up-to-date according to state file at 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\incremental.state\_KtorFramework_resolveDependenciesJvmTest-4cfb6bfdc2' in 28.284900ms
+00:03.121 DEBUG :KtorFramework:resolveDependenciesJvmTest IncrementalCache          [inc] ':KtorFramework:resolveDependenciesJvmTest' is up-to-date
+00:03.127 DEBUG :KtorFramework:resolveDependenciesJvm ResolveExternalDependenciesTask resolve dependencies KtorFramework -- main -- ch.qos.logback:logback-classic:1.5.18 io.ktor:ktor-bom:3.2.3 io.ktor:ktor-server-config-yaml:3.2.3 io.ktor:ktor-server-core:3.2.3 io.ktor:ktor-server-netty:3.2.3 org.jetbrains.kotlin:kotlin-stdlib:2.2.10 -- resolvePlatform=JVM nativeTarget=null
+wasmTarget=null
+https://repo1.maven.org/maven2 https://maven.google.com https://maven.pkg.jetbrains.space/public/p/compose/dev resolved to:
+  .m2.cache\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-stdlib\2.2.10\kotlin-stdlib-2.2.10.jar
+  .m2.cache\io\ktor\ktor-server-core-jvm\3.2.3\ktor-server-core-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-server-netty-jvm\3.2.3\ktor-server-netty-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-server-config-yaml-jvm\3.2.3\ktor-server-config-yaml-jvm-3.2.3.jar
+  .m2.cache\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar
+  .m2.cache\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar
+  .m2.cache\org\jetbrains\annotations\23.0.0\annotations-23.0.0.jar
+  .m2.cache\com\typesafe\config\1.4.3\config-1.4.3.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-reflect\2.1.21\kotlin-reflect-2.1.21.jar
+  .m2.cache\io\netty\netty-codec-http2\4.2.2.Final\netty-codec-http2-4.2.2.Final.jar
+  .m2.cache\org\eclipse\jetty\alpn\alpn-api\1.1.3.v20160715\alpn-api-1.1.3.v20160715.jar
+  .m2.cache\io\netty\netty-transport-native-kqueue\4.2.2.Final\netty-transport-native-kqueue-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-transport-native-epoll\4.2.2.Final\netty-transport-native-epoll-4.2.2.Final.jar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-coroutines-core-jvm\1.10.2\kotlinx-coroutines-core-jvm-1.10.2.jar
+  .m2.cache\io\ktor\ktor-utils-jvm\3.2.3\ktor-utils-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-http-jvm\3.2.3\ktor-http-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-serialization-jvm\3.2.3\ktor-serialization-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-events-jvm\3.2.3\ktor-events-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-http-cio-jvm\3.2.3\ktor-http-cio-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-websockets-jvm\3.2.3\ktor-websockets-jvm-3.2.3.jar
+  .m2.cache\io\netty\netty-common\4.2.2.Final\netty-common-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-buffer\4.2.2.Final\netty-buffer-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-transport\4.2.2.Final\netty-transport-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-codec-base\4.2.2.Final\netty-codec-base-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-handler\4.2.2.Final\netty-handler-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-codec-http\4.2.2.Final\netty-codec-http-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-transport-native-unix-common\4.2.2.Final\netty-transport-native-unix-common-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-transport-classes-kqueue\4.2.2.Final\netty-transport-classes-kqueue-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-transport-classes-epoll\4.2.2.Final\netty-transport-classes-epoll-4.2.2.Final.jar
+  .m2.cache\net\mamoe\yamlkt\yamlkt-jvm\0.13.0\yamlkt-jvm-0.13.0.jar
+  .m2.cache\io\netty\netty-resolver\4.2.2.Final\netty-resolver-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-codec-compression\4.2.2.Final\netty-codec-compression-4.2.2.Final.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.8.0\kotlin-stdlib-jdk8-1.8.0.jar
+  .m2.cache\io\ktor\ktor-io-jvm\3.2.3\ktor-io-jvm-3.2.3.jar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-serialization-core-jvm\1.8.1\kotlinx-serialization-core-jvm-1.8.1.jar
+  .m2.cache\io\ktor\ktor-network-jvm\3.2.3\ktor-network-jvm-3.2.3.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.8.0\kotlin-stdlib-jdk7-1.8.0.jar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-io-core-jvm\0.7.0\kotlinx-io-core-jvm-0.7.0.jar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-io-bytestring-jvm\0.7.0\kotlinx-io-bytestring-jvm-0.7.0.jar
+00:03.128 DEBUG :KtorFramework:resolveDependenciesJvmTest ResolveExternalDependenciesTask resolve dependencies KtorFramework -- main test -- ch.qos.logback:logback-classic:1.5.18 io.ktor:ktor-bom:3.2.3 io.ktor:ktor-server-config-yaml:3.2.3 io.ktor:ktor-server-core:3.2.3 io.ktor:ktor-server-netty:3.2.3 io.ktor:ktor-server-test-host:3.2.3 org.jetbrains.kotlin:kotlin-stdlib:2.2.10 org.jetbrains.kotlin:kotlin-test-junit5:2.2.10 -- resolvePlatform=JVM nativeTarget=null
+wasmTarget=null
+https://repo1.maven.org/maven2 https://maven.google.com https://maven.pkg.jetbrains.space/public/p/compose/dev resolved to:
+  .m2.cache\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-stdlib\2.2.10\kotlin-stdlib-2.2.10.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-test-junit5\2.2.10\kotlin-test-junit5-2.2.10.jar
+  .m2.cache\io\ktor\ktor-server-core-jvm\3.2.3\ktor-server-core-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-server-netty-jvm\3.2.3\ktor-server-netty-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-server-config-yaml-jvm\3.2.3\ktor-server-config-yaml-jvm-3.2.3.jar
+  .m2.cache\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar
+  .m2.cache\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar
+  .m2.cache\org\jetbrains\annotations\23.0.0\annotations-23.0.0.jar
+  .m2.cache\io\ktor\ktor-server-test-host-jvm\3.2.3\ktor-server-test-host-jvm-3.2.3.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-test\2.2.10\kotlin-test-2.2.10.jar
+  .m2.cache\org\junit\jupiter\junit-jupiter-api\5.13.3\junit-jupiter-api-5.13.3.jar
+  .m2.cache\com\typesafe\config\1.4.3\config-1.4.3.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-reflect\2.1.21\kotlin-reflect-2.1.21.jar
+  .m2.cache\io\netty\netty-codec-http2\4.2.2.Final\netty-codec-http2-4.2.2.Final.jar
+  .m2.cache\org\eclipse\jetty\alpn\alpn-api\1.1.3.v20160715\alpn-api-1.1.3.v20160715.jar
+  .m2.cache\io\netty\netty-transport-native-kqueue\4.2.2.Final\netty-transport-native-kqueue-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-transport-native-epoll\4.2.2.Final\netty-transport-native-epoll-4.2.2.Final.jar
+  .m2.cache\org\junit\jupiter\junit-jupiter\5.13.3\junit-jupiter-5.13.3.jar
+  .m2.cache\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar
+  .m2.cache\org\junit\platform\junit-platform-commons\1.13.3\junit-platform-commons-1.13.3.jar
+  .m2.cache\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-coroutines-core-jvm\1.10.2\kotlinx-coroutines-core-jvm-1.10.2.jar
+  .m2.cache\io\ktor\ktor-utils-jvm\3.2.3\ktor-utils-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-http-jvm\3.2.3\ktor-http-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-serialization-jvm\3.2.3\ktor-serialization-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-events-jvm\3.2.3\ktor-events-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-http-cio-jvm\3.2.3\ktor-http-cio-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-websockets-jvm\3.2.3\ktor-websockets-jvm-3.2.3.jar
+  .m2.cache\io\netty\netty-common\4.2.2.Final\netty-common-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-buffer\4.2.2.Final\netty-buffer-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-transport\4.2.2.Final\netty-transport-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-codec-base\4.2.2.Final\netty-codec-base-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-handler\4.2.2.Final\netty-handler-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-codec-http\4.2.2.Final\netty-codec-http-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-transport-native-unix-common\4.2.2.Final\netty-transport-native-unix-common-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-transport-classes-kqueue\4.2.2.Final\netty-transport-classes-kqueue-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-transport-classes-epoll\4.2.2.Final\netty-transport-classes-epoll-4.2.2.Final.jar
+  .m2.cache\net\mamoe\yamlkt\yamlkt-jvm\0.13.0\yamlkt-jvm-0.13.0.jar
+  .m2.cache\io\ktor\ktor-network-tls-jvm\3.2.3\ktor-network-tls-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-client-apache-jvm\3.2.3\ktor-client-apache-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-network-tls-certificates-jvm\3.2.3\ktor-network-tls-certificates-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-server-call-logging-jvm\3.2.3\ktor-server-call-logging-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-server-websockets-jvm\3.2.3\ktor-server-websockets-jvm-3.2.3.jar
+  .m2.cache\org\junit\jupiter\junit-jupiter-params\5.13.3\junit-jupiter-params-5.13.3.jar
+  .m2.cache\io\ktor\ktor-client-cio-jvm\3.2.3\ktor-client-cio-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-client-core-jvm\3.2.3\ktor-client-core-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-test-dispatcher-jvm\3.2.3\ktor-test-dispatcher-jvm-3.2.3.jar
+  .m2.cache\io\netty\netty-resolver\4.2.2.Final\netty-resolver-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-codec-compression\4.2.2.Final\netty-codec-compression-4.2.2.Final.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.8.0\kotlin-stdlib-jdk8-1.8.0.jar
+  .m2.cache\org\apache\httpcomponents\httpasyncclient\4.1.5\httpasyncclient-4.1.5.jar
+  .m2.cache\io\ktor\ktor-io-jvm\3.2.3\ktor-io-jvm-3.2.3.jar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-serialization-core-jvm\1.8.1\kotlinx-serialization-core-jvm-1.8.1.jar
+  .m2.cache\io\ktor\ktor-network-jvm\3.2.3\ktor-network-jvm-3.2.3.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.8.0\kotlin-stdlib-jdk7-1.8.0.jar
+  .m2.cache\org\apache\httpcomponents\httpcore\4.4.15\httpcore-4.4.15.jar
+  .m2.cache\org\apache\httpcomponents\httpcore-nio\4.4.15\httpcore-nio-4.4.15.jar
+  .m2.cache\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar
+  .m2.cache\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+  .m2.cache\io\ktor\ktor-websocket-serialization-jvm\3.2.3\ktor-websocket-serialization-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-sse-jvm\3.2.3\ktor-sse-jvm-3.2.3.jar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-coroutines-test-jvm\1.10.2\kotlinx-coroutines-test-jvm-1.10.2.jar
+  .m2.cache\commons-codec\commons-codec\1.11\commons-codec-1.11.jar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-io-core-jvm\0.7.0\kotlinx-io-core-jvm-0.7.0.jar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-io-bytestring-jvm\0.7.0\kotlinx-io-bytestring-jvm-0.7.0.jar
+00:03.134 DEBUG :KtorFramework:compileJvm JvmCompileTask            compile KtorFramework -- main
+00:03.148 INFO  :KtorFramework:compileJvm Downloader                Downloading https://corretto.aws/downloads/resources/21.0.1.12.1/amazon-corretto-21.0.1.12.1-windows-x64-jdk.zip to C:\Users\User\AppData\Local\JetBrains\Amper\download.cache\5de2c13edf-amazon-corretto-21.0.1.12.1-windows-x64-jdk.zip
+00:54.600 DEBUG :KtorFramework:compileJvm ExtractKt                 Extracting C:\Users\User\AppData\Local\JetBrains\Amper\download.cache\5de2c13edf-amazon-corretto-21.0.1.12.1-windows-x64-jdk.zip to C:\Users\User\AppData\Local\JetBrains\Amper\extract.cache\5de2c13edf-amazon-corretto-21.0.1.12.1-windows-x64-jdk.zip.b32cb1.d
+01:00.071 DEBUG :KtorFramework:compileJvm StateKt                   [inc] state file is missing or empty at 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\incremental.state\_KtorFramework_compileJvm-7be63c05ca' -> cache miss
+01:00.072 DEBUG :KtorFramework:compileJvm IncrementalCache          [inc] building ':KtorFramework:compileJvm'
+01:00.083 DEBUG :KtorFramework:compileJvm StateKt                   [inc] state file is missing or empty at 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\incremental.state\resolve_org_jetbrains_kotlin_kotlin_build_tools_impl_2_2_10-a9dd35d62b' -> cache miss
+01:00.083 DEBUG :KtorFramework:compileJvm IncrementalCache          [inc] building 'resolve-org.jetbrains.kotlin-kotlin-build-tools-impl-2.2.10'
+01:00.520 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-impl/2.2.10/kotlin-build-tools-impl-2.2.10.pom.sha512
+01:00.621 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-impl/2.2.10/kotlin-build-tools-impl-2.2.10.pom.sha256
+01:00.790 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-impl/2.2.10/kotlin-build-tools-impl-2.2.10.pom.sha1 for the dependency org.jetbrains.kotlin:kotlin-build-tools-impl:2.2.10
+01:00.904 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-impl/2.2.10/kotlin-build-tools-impl-2.2.10.pom for the dependency org.jetbrains.kotlin:kotlin-build-tools-impl:2.2.10
+01:01.062 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-runner/2.2.10/kotlin-compiler-runner-2.2.10.pom.sha512
+01:01.082 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.2.10/kotlin-scripting-compiler-embeddable-2.2.10.pom.sha512
+01:01.083 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.2.10/kotlin-scripting-compiler-impl-embeddable-2.2.10.pom.sha512
+01:01.092 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.2.10/kotlin-compiler-embeddable-2.2.10.pom.sha512
+01:01.134 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-runner/2.2.10/kotlin-compiler-runner-2.2.10.pom.sha256
+01:01.159 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.2.10/kotlin-scripting-compiler-impl-embeddable-2.2.10.pom.sha256
+01:01.186 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.2.10/kotlin-compiler-embeddable-2.2.10.pom.sha256
+01:01.187 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.2.10/kotlin-scripting-compiler-embeddable-2.2.10.pom.sha256
+01:01.211 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-runner/2.2.10/kotlin-compiler-runner-2.2.10.pom.sha1 for the dependency org.jetbrains.kotlin:kotlin-compiler-runner:2.2.10
+01:01.240 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.2.10/kotlin-compiler-embeddable-2.2.10.pom.sha1 for the dependency org.jetbrains.kotlin:kotlin-compiler-embeddable:2.2.10
+01:01.240 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.2.10/kotlin-scripting-compiler-impl-embeddable-2.2.10.pom.sha1 for the dependency org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:2.2.10
+01:01.267 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.2.10/kotlin-scripting-compiler-embeddable-2.2.10.pom.sha1 for the dependency org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:2.2.10
+01:01.282 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom.sha512
+01:01.300 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-runner/2.2.10/kotlin-compiler-runner-2.2.10.pom for the dependency org.jetbrains.kotlin:kotlin-compiler-runner:2.2.10
+01:01.301 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.2.10/kotlin-compiler-embeddable-2.2.10.pom for the dependency org.jetbrains.kotlin:kotlin-compiler-embeddable:2.2.10
+01:01.326 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.2.10/kotlin-scripting-compiler-impl-embeddable-2.2.10.pom for the dependency org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:2.2.10
+01:01.362 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.2.10/kotlin-scripting-compiler-embeddable-2.2.10.pom for the dependency org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:2.2.10
+01:01.394 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.8.0/kotlinx-coroutines-core-jvm-1.8.0.pom.sha512 for the dependency org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0
+01:01.427 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-client/2.2.10/kotlin-daemon-client-2.2.10.pom.sha512
+01:01.429 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/2.2.10/kotlin-script-runtime-2.2.10.pom.sha512
+01:01.433 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10.pom.sha512
+01:01.434 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.2.10/kotlin-scripting-jvm-2.2.10.pom.sha512
+01:01.439 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.2.10/kotlin-daemon-embeddable-2.2.10.pom.sha512
+01:01.439 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/2.2.10/kotlin-scripting-common-2.2.10.pom.sha512
+01:01.454 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.8.0/kotlinx-coroutines-core-jvm-1.8.0.pom for the dependency org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0
+01:01.495 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-api/2.2.10/kotlin-build-tools-api-2.2.10.pom.sha512
+01:01.509 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom.sha256
+01:01.510 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10.pom.sha256
+01:01.514 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.2.10/kotlin-scripting-jvm-2.2.10.pom.sha256
+01:01.514 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/2.2.10/kotlin-script-runtime-2.2.10.pom.sha256
+01:01.522 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-client/2.2.10/kotlin-daemon-client-2.2.10.pom.sha256
+01:01.523 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.2.10/kotlin-daemon-embeddable-2.2.10.pom.sha256
+01:01.568 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/2.2.10/kotlin-scripting-common-2.2.10.pom.sha256
+01:01.569 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.8.0/kotlinx-coroutines-core-jvm-1.8.0.module.sha512 for the dependency org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0
+01:01.569 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-api/2.2.10/kotlin-build-tools-api-2.2.10.pom.sha256
+01:01.586 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10.pom.sha1 for the dependency org.jetbrains.kotlin:kotlin-reflect:1.6.10
+01:01.586 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-client/2.2.10/kotlin-daemon-client-2.2.10.pom.sha1 for the dependency org.jetbrains.kotlin:kotlin-daemon-client:2.2.10
+01:01.593 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.2.10/kotlin-daemon-embeddable-2.2.10.pom.sha1 for the dependency org.jetbrains.kotlin:kotlin-daemon-embeddable:2.2.10
+01:01.594 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/2.2.10/kotlin-script-runtime-2.2.10.pom.sha1 for the dependency org.jetbrains.kotlin:kotlin-script-runtime:2.2.10
+01:01.621 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.2.10/kotlin-scripting-jvm-2.2.10.pom.sha1 for the dependency org.jetbrains.kotlin:kotlin-scripting-jvm:2.2.10
+01:01.621 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom.sha1 for the dependency org.jetbrains:annotations:13.0
+01:01.647 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/2.2.10/kotlin-scripting-common-2.2.10.pom.sha1 for the dependency org.jetbrains.kotlin:kotlin-scripting-common:2.2.10
+01:01.648 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.8.0/kotlinx-coroutines-core-jvm-1.8.0.module for the dependency org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0
+01:01.648 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-api/2.2.10/kotlin-build-tools-api-2.2.10.pom.sha1 for the dependency org.jetbrains.kotlin:kotlin-build-tools-api:2.2.10
+01:01.649 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-client/2.2.10/kotlin-daemon-client-2.2.10.pom for the dependency org.jetbrains.kotlin:kotlin-daemon-client:2.2.10
+01:01.651 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10.pom for the dependency org.jetbrains.kotlin:kotlin-reflect:1.6.10
+01:01.673 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.2.10/kotlin-daemon-embeddable-2.2.10.pom for the dependency org.jetbrains.kotlin:kotlin-daemon-embeddable:2.2.10
+01:01.689 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.2.10/kotlin-scripting-jvm-2.2.10.pom for the dependency org.jetbrains.kotlin:kotlin-scripting-jvm:2.2.10
+01:01.716 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/2.2.10/kotlin-scripting-common-2.2.10.pom for the dependency org.jetbrains.kotlin:kotlin-scripting-common:2.2.10
+01:01.717 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.8.0/kotlinx-coroutines-bom-1.8.0.pom.sha512 for the dependency org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.8.0
+01:01.731 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-api/2.2.10/kotlin-build-tools-api-2.2.10.pom for the dependency org.jetbrains.kotlin:kotlin-build-tools-api:2.2.10
+01:01.806 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.8.0/kotlinx-coroutines-bom-1.8.0.pom for the dependency org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.8.0
+01:01.820 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/2.2.10/kotlin-script-runtime-2.2.10.pom for the dependency org.jetbrains.kotlin:kotlin-script-runtime:2.2.10
+01:02.271 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.8.0/kotlinx-coroutines-core-jvm-1.8.0.jar for the dependency org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.8.0
+01:02.272 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.2.10/kotlin-daemon-embeddable-2.2.10.jar.sha512
+01:02.272 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/2.2.10/kotlin-script-runtime-2.2.10.jar.sha512
+01:02.272 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-impl/2.2.10/kotlin-build-tools-impl-2.2.10.jar.sha512
+01:02.272 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.2.10/kotlin-scripting-compiler-embeddable-2.2.10.jar.sha512
+01:02.275 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.2.10/kotlin-compiler-embeddable-2.2.10.jar.sha512
+01:02.275 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.2.10/kotlin-scripting-compiler-impl-embeddable-2.2.10.jar.sha512
+01:02.275 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-client/2.2.10/kotlin-daemon-client-2.2.10.jar.sha512
+01:02.275 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10.jar.sha512
+01:02.275 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/2.2.10/kotlin-scripting-common-2.2.10.jar.sha512
+01:02.335 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10.jar.sha256
+01:02.337 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.2.10/kotlin-scripting-compiler-impl-embeddable-2.2.10.jar.sha256
+01:02.352 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/2.2.10/kotlin-script-runtime-2.2.10.jar.sha256
+01:02.352 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.2.10/kotlin-scripting-compiler-embeddable-2.2.10.jar.sha256
+01:02.354 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-client/2.2.10/kotlin-daemon-client-2.2.10.jar.sha256
+01:02.355 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.2.10/kotlin-compiler-embeddable-2.2.10.jar.sha256
+01:02.359 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/2.2.10/kotlin-scripting-common-2.2.10.jar.sha256
+01:02.359 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.2.10/kotlin-daemon-embeddable-2.2.10.jar.sha256
+01:02.361 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-impl/2.2.10/kotlin-build-tools-impl-2.2.10.jar.sha256
+01:02.415 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.2.10/kotlin-scripting-compiler-impl-embeddable-2.2.10.jar.sha1 for the dependency org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:2.2.10
+01:02.415 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10.jar.sha1 for the dependency org.jetbrains.kotlin:kotlin-reflect:1.6.10
+01:02.415 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.2.10/kotlin-scripting-compiler-embeddable-2.2.10.jar.sha1 for the dependency org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:2.2.10
+01:02.416 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/2.2.10/kotlin-scripting-common-2.2.10.jar.sha1 for the dependency org.jetbrains.kotlin:kotlin-scripting-common:2.2.10
+01:02.461 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-client/2.2.10/kotlin-daemon-client-2.2.10.jar.sha1 for the dependency org.jetbrains.kotlin:kotlin-daemon-client:2.2.10
+01:02.462 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-impl/2.2.10/kotlin-build-tools-impl-2.2.10.jar.sha1 for the dependency org.jetbrains.kotlin:kotlin-build-tools-impl:2.2.10
+01:02.462 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.2.10/kotlin-compiler-embeddable-2.2.10.jar.sha1 for the dependency org.jetbrains.kotlin:kotlin-compiler-embeddable:2.2.10
+01:02.462 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.2.10/kotlin-daemon-embeddable-2.2.10.jar.sha1 for the dependency org.jetbrains.kotlin:kotlin-daemon-embeddable:2.2.10
+01:02.505 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/2.2.10/kotlin-scripting-compiler-impl-embeddable-2.2.10.jar for the dependency org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable:2.2.10
+01:02.716 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/2.2.10/kotlin-scripting-compiler-embeddable-2.2.10.jar for the dependency org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:2.2.10
+01:02.881 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-common/2.2.10/kotlin-scripting-common-2.2.10.jar for the dependency org.jetbrains.kotlin:kotlin-scripting-common:2.2.10
+01:02.894 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.6.10/kotlin-reflect-1.6.10.jar for the dependency org.jetbrains.kotlin:kotlin-reflect:1.6.10
+01:02.901 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-impl/2.2.10/kotlin-build-tools-impl-2.2.10.jar for the dependency org.jetbrains.kotlin:kotlin-build-tools-impl:2.2.10
+01:02.933 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-embeddable/2.2.10/kotlin-daemon-embeddable-2.2.10.jar for the dependency org.jetbrains.kotlin:kotlin-daemon-embeddable:2.2.10
+01:03.061 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-daemon-client/2.2.10/kotlin-daemon-client-2.2.10.jar for the dependency org.jetbrains.kotlin:kotlin-daemon-client:2.2.10
+01:03.678 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/2.2.10/kotlin-script-runtime-2.2.10.jar.sha1 for the dependency org.jetbrains.kotlin:kotlin-script-runtime:2.2.10
+01:04.634 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-api/2.2.10/kotlin-build-tools-api-2.2.10.jar.sha512
+01:04.634 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-runner/2.2.10/kotlin-compiler-runner-2.2.10.jar.sha512
+01:04.637 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-script-runtime/2.2.10/kotlin-script-runtime-2.2.10.jar for the dependency org.jetbrains.kotlin:kotlin-script-runtime:2.2.10
+01:05.578 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-runner/2.2.10/kotlin-compiler-runner-2.2.10.jar.sha256
+01:05.629 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-api/2.2.10/kotlin-build-tools-api-2.2.10.jar.sha256
+01:07.013 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-runner/2.2.10/kotlin-compiler-runner-2.2.10.jar.sha1 for the dependency org.jetbrains.kotlin:kotlin-compiler-runner:2.2.10
+01:07.013 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-api/2.2.10/kotlin-build-tools-api-2.2.10.jar.sha1 for the dependency org.jetbrains.kotlin:kotlin-build-tools-api:2.2.10
+01:08.355 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-embeddable/2.2.10/kotlin-compiler-embeddable-2.2.10.jar for the dependency org.jetbrains.kotlin:kotlin-compiler-embeddable:2.2.10
+01:08.356 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-compiler-runner/2.2.10/kotlin-compiler-runner-2.2.10.jar for the dependency org.jetbrains.kotlin:kotlin-compiler-runner:2.2.10
+01:08.358 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-build-tools-api/2.2.10/kotlin-build-tools-api-2.2.10.jar for the dependency org.jetbrains.kotlin:kotlin-build-tools-api:2.2.10
+01:08.449 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.2.10/kotlin-scripting-jvm-2.2.10.jar.sha512
+01:08.573 DEBUG :KtorFramework:compileJvm DependencyFile            Not found URL: https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.2.10/kotlin-scripting-jvm-2.2.10.jar.sha256
+01:08.681 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.2.10/kotlin-scripting-jvm-2.2.10.jar.sha1 for the dependency org.jetbrains.kotlin:kotlin-scripting-jvm:2.2.10
+01:08.759 DEBUG :KtorFramework:compileJvm DependencyFile            Downloaded https://repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-scripting-jvm/2.2.10/kotlin-scripting-jvm-2.2.10.jar for the dependency org.jetbrains.kotlin:kotlin-scripting-jvm:2.2.10
+01:08.769 DEBUG :KtorFramework:compileJvm IncrementalCache          [inc] finished 'resolve-org.jetbrains.kotlin-kotlin-build-tools-impl-2.2.10' in 8.685854100s
+01:08.776 DEBUG :KtorFramework:compileJvm IncrementalCache          [inc] 'resolve-org.jetbrains.kotlin-kotlin-build-tools-impl-2.2.10' changes: 'C:\Users\User\AppData\Local\JetBrains\Amper\.m2.cache\org\jetbrains\kotlin\kotlin-build-tools-impl\2.2.10\kotlin-build-tools-impl-2.2.10.jar' CREATED, 'C:\Users\User\AppData\Local\JetBrains\Amper\.m2.cache\org\jetbrains\kotlin\kotlin-build-tools-api\2.2.10\kotlin-build-tools-api-2.2.10.jar' CREATED, 'C:\Users\User\AppData\Local\JetBrains\Amper\.m2.cache\org\jetbrains\kotlin\kotlin-stdlib\2.2.10\kotlin-stdlib-2.2.10.jar' CREATED, 'C:\Users\User\AppData\Local\JetBrains\Amper\.m2.cache\org\jetbrains\kotlin\kotlin-compiler-embeddable\2.2.10\kotlin-compiler-embeddable-2.2.10.jar' CREATED, 'C:\Users\User\AppData\Local\JetBrains\Amper\.m2.cache\org\jetbrains\kotlin\kotlin-compiler-runner\2.2.10\kotlin-compiler-runner-2.2.10.jar' CREATED, 'C:\Users\User\AppData\Local\JetBrains\Amper\.m2.cache\org\jetbrains\kotlin\kotlin-scripting-compiler-embeddable\2.2.10\kotlin-scripting-compiler-embeddable-2.2.10.jar' CREATED, 'C:\Users\User\AppData\Local\JetBrains\Amper\.m2.cache\org\jetbrains\kotlin\kotlin-scripting-compiler-impl-embeddable\2.2.10\kotlin-scripting-compiler-impl-embeddable-2.2.10.jar' CREATED, 'C:\Users\User\AppData\Local\JetBrains\Amper\.m2.cache\org\jetbrains\annotations\23.0.0\annotations-23.0.0.jar' CREATED, 'C:\Users\User\AppData\Local\JetBrains\Amper\.m2.cache\org\jetbrains\kotlin\kotlin-script-runtime\2.2.10\kotlin-script-runtime-2.2.10.jar' CREATED, 'C:\Users\User\AppData\Local\JetBrains\Amper\.m2.cache\org\jetbrains\kotlin\kotlin-reflect\1.6.10\kotlin-reflect-1.6.10.jar' CREATED, 'C:\Users\User\AppData\Local\JetBrains\Amper\.m2.cache\org\jetbrains\kotlin\kotlin-daemon-embeddable\2.2.10\kotlin-daemon-embeddable-2.2.10.jar' CREATED, 'C:\Users\User\AppData\Local\JetBrains\Amper\.m2.cache\org\jetbrains\kotlinx\kotlinx-coroutines-core-jvm\1.8.0\kotlinx-coroutines-core-jvm-1.8.0.jar' CREATED, 'C:\Users\User\AppData\Local\JetBrains\Amper\.m2.cache\org\jetbrains\kotlin\kotlin-daemon-client\2.2.10\kotlin-daemon-client-2.2.10.jar' CREATED, 'C:\Users\User\AppData\Local\JetBrains\Amper\.m2.cache\org\jetbrains\kotlin\kotlin-scripting-common\2.2.10\kotlin-scripting-common-2.2.10.jar' CREATED, 'C:\Users\User\AppData\Local\JetBrains\Amper\.m2.cache\org\jetbrains\kotlin\kotlin-scripting-jvm\2.2.10\kotlin-scripting-jvm-2.2.10.jar' CREATED
+01:08.886 INFO  :KtorFramework:compileJvm JvmCompileTask            Compiling module 'KtorFramework' for platform 'jvm'...
+01:08.888 DEBUG :KtorFramework:compileJvm KotlinBuildToolsApiKt     Compiling using the in-process strategy
+01:09.018 DEBUG :KtorFramework:compileJvm KotlinBuildToolsApiKt     Using Kotlin home directory <no_path>
+01:09.028 DEBUG :KtorFramework:compileJvm KotlinBuildToolsApiKt     Configuring the compilation environment
+01:09.126 DEBUG :KtorFramework:compileJvm KotlinBuildToolsApiKt     Using JDK home directory C:\Users\User\AppData\Local\JetBrains\Amper\extract.cache\5de2c13edf-amazon-corretto-21.0.1.12.1-windows-x64-jdk.zip.b32cb1.d
+01:11.098 DEBUG :KtorFramework:compileJvm KotlinBuildToolsApiKt     Loading modules: [java.se, jdk.incubator.vector, jdk.management.jfr, jdk.attach, jdk.jconsole, jdk.accessibility, jdk.management, jdk.xml.dom, jdk.jshell, jdk.unsupported, jdk.security.auth, jdk.dynalink, jdk.jdi, jdk.security.jgss, jdk.net, jdk.sctp, jdk.incubator.foreign, jdk.jsobject, jdk.httpserver, jdk.jfr, jdk.javadoc, jdk.compiler, jdk.nio.mapmode, jdk.jartool, java.base, java.compiler, java.datatransfer, java.desktop, java.xml, java.instrument, java.logging, java.management, java.management.rmi, java.rmi, java.naming, java.net.http, java.prefs, java.scripting, java.security.jgss, java.security.sasl, java.sql, java.transaction.xa, java.sql.rowset, java.xml.crypto, jdk.management.agent, jdk.jdwp.agent]
+01:14.236 DEBUG :KtorFramework:compileJvm JvmCompileTask            Kotlin compiler finalization...
+01:14.236 DEBUG :KtorFramework:compileJvm JvmCompileTask            Copying resources from 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\resources' to 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\tasks\_KtorFramework_compileJvm'...
+01:14.247 DEBUG :KtorFramework:compileJvm IncrementalCache          [inc] finished ':KtorFramework:compileJvm' in 14.176226100s
+01:14.269 DEBUG :KtorFramework:compileJvm IncrementalCache          [inc] ':KtorFramework:compileJvm' changes: 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\tasks\_KtorFramework_compileJvm\application.yaml' CREATED, 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\tasks\_KtorFramework_compileJvm\logback.xml' CREATED, 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\tasks\_KtorFramework_compileJvm\META-INF\main.kotlin_module' CREATED, 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\tasks\_KtorFramework_compileJvm\org\jetbrains\amper\ktor\ApplicationKt.class' CREATED, 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\tasks\_KtorFramework_compileJvm\org\jetbrains\amper\ktor\RoutingKt$configureRouting$1$1.class' CREATED, 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\tasks\_KtorFramework_compileJvm\org\jetbrains\amper\ktor\RoutingKt.class' CREATED
+01:14.271 DEBUG :KtorFramework:compileJvmTest JvmCompileTask            compile KtorFramework -- test
+01:14.274 DEBUG :KtorFramework:compileJvmTest ExtractKt                 Skipping extract to C:\Users\User\AppData\Local\JetBrains\Amper\extract.cache\5de2c13edf-amazon-corretto-21.0.1.12.1-windows-x64-jdk.zip.b32cb1.d since flag file C:\Users\User\AppData\Local\JetBrains\Amper\extract.cache\5de2c13edf-amazon-corretto-21.0.1.12.1-windows-x64-jdk.zip.b32cb1.d.flag is correct
+01:14.277 DEBUG :KtorFramework:compileJvmTest StateKt                   [inc] state file is missing or empty at 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\incremental.state\_KtorFramework_compileJvmTest-eabbc1206e' -> cache miss
+01:14.277 DEBUG :KtorFramework:compileJvmTest IncrementalCache          [inc] building ':KtorFramework:compileJvmTest'
+01:14.279 DEBUG :KtorFramework:compileJvmTest JvmCompileTask            No sources were found for fragment 'test' of module 'KtorFramework', skipping compilation
+01:14.280 DEBUG :KtorFramework:compileJvmTest IncrementalCache          [inc] finished ':KtorFramework:compileJvmTest' in 2.045ms
+01:14.280 DEBUG :KtorFramework:jarJvm     StateKt                   [inc] state file is missing or empty at 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\incremental.state\_KtorFramework_jarJvm-45ec930124' -> cache miss
+01:14.280 DEBUG :KtorFramework:jarJvm     IncrementalCache          [inc] building ':KtorFramework:jarJvm'
+01:14.300 DEBUG :KtorFramework:compileJvmTest IncrementalCache          [inc] ':KtorFramework:compileJvmTest' changes: 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\tasks\_KtorFramework_compileJvmTest' CREATED
+01:14.320 DEBUG :KtorFramework:jarJvm     IncrementalCache          [inc] finished ':KtorFramework:jarJvm' in 39.277ms
+01:14.324 DEBUG :KtorFramework:jarJvm     IncrementalCache          [inc] ':KtorFramework:jarJvm' changes: 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\tasks\_KtorFramework_jarJvm\KtorFramework-jvm.jar' CREATED

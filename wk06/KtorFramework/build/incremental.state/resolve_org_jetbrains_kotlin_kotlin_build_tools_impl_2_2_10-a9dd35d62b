@@ -1,0 +1,42 @@
+{
+    "codeVersion": "0.8.2",
+    "configuration": {},
+    "inputs": [],
+    "inputsState": {},
+    "outputs": [
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-build-tools-impl\\2.2.10\\kotlin-build-tools-impl-2.2.10.jar",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-build-tools-api\\2.2.10\\kotlin-build-tools-api-2.2.10.jar",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-stdlib\\2.2.10\\kotlin-stdlib-2.2.10.jar",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-compiler-embeddable\\2.2.10\\kotlin-compiler-embeddable-2.2.10.jar",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-compiler-runner\\2.2.10\\kotlin-compiler-runner-2.2.10.jar",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-scripting-compiler-embeddable\\2.2.10\\kotlin-scripting-compiler-embeddable-2.2.10.jar",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-scripting-compiler-impl-embeddable\\2.2.10\\kotlin-scripting-compiler-impl-embeddable-2.2.10.jar",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\annotations\\23.0.0\\annotations-23.0.0.jar",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-script-runtime\\2.2.10\\kotlin-script-runtime-2.2.10.jar",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-reflect\\1.6.10\\kotlin-reflect-1.6.10.jar",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-daemon-embeddable\\2.2.10\\kotlin-daemon-embeddable-2.2.10.jar",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlinx\\kotlinx-coroutines-core-jvm\\1.8.0\\kotlinx-coroutines-core-jvm-1.8.0.jar",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-daemon-client\\2.2.10\\kotlin-daemon-client-2.2.10.jar",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-scripting-common\\2.2.10\\kotlin-scripting-common-2.2.10.jar",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-scripting-jvm\\2.2.10\\kotlin-scripting-jvm-2.2.10.jar"
+    ],
+    "excludedOutputs": [],
+    "outputsState": {
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\annotations\\23.0.0\\annotations-23.0.0.jar": "size 29371 mtime 2025-11-18T23:18:42.054949Z",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-build-tools-api\\2.2.10\\kotlin-build-tools-api-2.2.10.jar": "size 44967 mtime 2025-11-18T23:22:16.3549143Z",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-build-tools-impl\\2.2.10\\kotlin-build-tools-impl-2.2.10.jar": "size 57925 mtime 2025-11-18T23:22:10.8975976Z",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-compiler-embeddable\\2.2.10\\kotlin-compiler-embeddable-2.2.10.jar": "size 56259401 mtime 2025-11-18T23:22:16.3516267Z",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-compiler-runner\\2.2.10\\kotlin-compiler-runner-2.2.10.jar": "size 19838 mtime 2025-11-18T23:22:16.3522247Z",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-daemon-client\\2.2.10\\kotlin-daemon-client-2.2.10.jar": "size 243055 mtime 2025-11-18T23:22:11.0578947Z",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-daemon-embeddable\\2.2.10\\kotlin-daemon-embeddable-2.2.10.jar": "size 345724 mtime 2025-11-18T23:22:10.9237157Z",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-reflect\\1.6.10\\kotlin-reflect-1.6.10.jar": "size 3038560 mtime 2025-11-18T23:22:10.8909964Z",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-script-runtime\\2.2.10\\kotlin-script-runtime-2.2.10.jar": "size 44759 mtime 2025-11-18T23:22:12.6326055Z",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-scripting-common\\2.2.10\\kotlin-scripting-common-2.2.10.jar": "size 198345 mtime 2025-11-18T23:22:10.8771541Z",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-scripting-compiler-embeddable\\2.2.10\\kotlin-scripting-compiler-embeddable-2.2.10.jar": "size 586455 mtime 2025-11-18T23:22:10.711791Z",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-scripting-compiler-impl-embeddable\\2.2.10\\kotlin-scripting-compiler-impl-embeddable-2.2.10.jar": "size 229736 mtime 2025-11-18T23:22:10.5010683Z",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-scripting-jvm\\2.2.10\\kotlin-scripting-jvm-2.2.10.jar": "size 149277 mtime 2025-11-18T23:22:16.7545774Z",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlin\\kotlin-stdlib\\2.2.10\\kotlin-stdlib-2.2.10.jar": "size 1750374 mtime 2025-11-18T23:18:40.4064657Z",
+        "C:\\Users\\User\\AppData\\Local\\JetBrains\\Amper\\.m2.cache\\org\\jetbrains\\kotlinx\\kotlinx-coroutines-core-jvm\\1.8.0\\kotlinx-coroutines-core-jvm-1.8.0.jar": "size 1548360 mtime 2025-11-18T23:22:10.2679285Z"
+    },
+    "outputProperties": {}
+}

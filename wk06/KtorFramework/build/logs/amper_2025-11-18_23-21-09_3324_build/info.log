@@ -1,0 +1,5 @@
+JetBrains Amper version 0.8.2 (fed2d26, 2025-11-17)
+running on Windows 10 10.0 jvm arch amd64
+
+00:03.148 INFO  :KtorFramework:compileJvm Downloader                Downloading https://corretto.aws/downloads/resources/21.0.1.12.1/amazon-corretto-21.0.1.12.1-windows-x64-jdk.zip to C:\Users\User\AppData\Local\JetBrains\Amper\download.cache\5de2c13edf-amazon-corretto-21.0.1.12.1-windows-x64-jdk.zip
+01:08.886 INFO  :KtorFramework:compileJvm JvmCompileTask            Compiling module 'KtorFramework' for platform 'jvm'...
