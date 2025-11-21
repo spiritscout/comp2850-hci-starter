@@ -1,0 +1,57 @@
+JetBrains Amper version 0.8.2 (fed2d26, 2025-11-17)
+running on Windows 10 10.0 jvm arch amd64
+
+00:04.841 DEBUG :KtorFramework:resolveDependenciesJvm ResolveExternalDependenciesTask resolve dependencies KtorFramework -- main -- ch.qos.logback:logback-classic:1.5.18 io.ktor:ktor-bom:3.2.3 io.ktor:ktor-server-config-yaml:3.2.3 io.ktor:ktor-server-core:3.2.3 io.ktor:ktor-server-netty:3.2.3 org.jetbrains.kotlin:kotlin-stdlib:2.2.10 -- resolvePlatform=jvm nativeTarget=null wasmTarget=null
+00:04.930 DEBUG :KtorFramework:resolveDependenciesJvm IncrementalCache          [inc] up-to-date according to state file at 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\incremental.state\_KtorFramework_resolveDependenciesJvm-2cbc14eb46' in 73.101100ms
+00:04.931 DEBUG :KtorFramework:resolveDependenciesJvm IncrementalCache          [inc] ':KtorFramework:resolveDependenciesJvm' is up-to-date
+00:04.943 DEBUG :KtorFramework:resolveDependenciesJvm ResolveExternalDependenciesTask resolve dependencies KtorFramework -- main -- ch.qos.logback:logback-classic:1.5.18 io.ktor:ktor-bom:3.2.3 io.ktor:ktor-server-config-yaml:3.2.3 io.ktor:ktor-server-core:3.2.3 io.ktor:ktor-server-netty:3.2.3 org.jetbrains.kotlin:kotlin-stdlib:2.2.10 -- resolvePlatform=JVM nativeTarget=null
+wasmTarget=null
+https://repo1.maven.org/maven2 https://maven.google.com https://maven.pkg.jetbrains.space/public/p/compose/dev resolved to:
+  .m2.cache\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-stdlib\2.2.10\kotlin-stdlib-2.2.10.jar
+  .m2.cache\io\ktor\ktor-server-core-jvm\3.2.3\ktor-server-core-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-server-netty-jvm\3.2.3\ktor-server-netty-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-server-config-yaml-jvm\3.2.3\ktor-server-config-yaml-jvm-3.2.3.jar
+  .m2.cache\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar
+  .m2.cache\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar
+  .m2.cache\org\jetbrains\annotations\23.0.0\annotations-23.0.0.jar
+  .m2.cache\com\typesafe\config\1.4.3\config-1.4.3.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-reflect\2.1.21\kotlin-reflect-2.1.21.jar
+  .m2.cache\io\netty\netty-codec-http2\4.2.2.Final\netty-codec-http2-4.2.2.Final.jar
+  .m2.cache\org\eclipse\jetty\alpn\alpn-api\1.1.3.v20160715\alpn-api-1.1.3.v20160715.jar
+  .m2.cache\io\netty\netty-transport-native-kqueue\4.2.2.Final\netty-transport-native-kqueue-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-transport-native-epoll\4.2.2.Final\netty-transport-native-epoll-4.2.2.Final.jar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-coroutines-core-jvm\1.10.2\kotlinx-coroutines-core-jvm-1.10.2.jar
+  .m2.cache\io\ktor\ktor-utils-jvm\3.2.3\ktor-utils-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-http-jvm\3.2.3\ktor-http-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-serialization-jvm\3.2.3\ktor-serialization-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-events-jvm\3.2.3\ktor-events-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-http-cio-jvm\3.2.3\ktor-http-cio-jvm-3.2.3.jar
+  .m2.cache\io\ktor\ktor-websockets-jvm\3.2.3\ktor-websockets-jvm-3.2.3.jar
+  .m2.cache\io\netty\netty-common\4.2.2.Final\netty-common-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-buffer\4.2.2.Final\netty-buffer-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-transport\4.2.2.Final\netty-transport-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-codec-base\4.2.2.Final\netty-codec-base-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-handler\4.2.2.Final\netty-handler-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-codec-http\4.2.2.Final\netty-codec-http-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-transport-native-unix-common\4.2.2.Final\netty-transport-native-unix-common-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-transport-classes-kqueue\4.2.2.Final\netty-transport-classes-kqueue-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-transport-classes-epoll\4.2.2.Final\netty-transport-classes-epoll-4.2.2.Final.jar
+  .m2.cache\net\mamoe\yamlkt\yamlkt-jvm\0.13.0\yamlkt-jvm-0.13.0.jar
+  .m2.cache\io\netty\netty-resolver\4.2.2.Final\netty-resolver-4.2.2.Final.jar
+  .m2.cache\io\netty\netty-codec-compression\4.2.2.Final\netty-codec-compression-4.2.2.Final.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-stdlib-jdk8\1.8.0\kotlin-stdlib-jdk8-1.8.0.jar
+  .m2.cache\io\ktor\ktor-io-jvm\3.2.3\ktor-io-jvm-3.2.3.jar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-serialization-core-jvm\1.8.1\kotlinx-serialization-core-jvm-1.8.1.jar
+  .m2.cache\io\ktor\ktor-network-jvm\3.2.3\ktor-network-jvm-3.2.3.jar
+  .m2.cache\org\jetbrains\kotlin\kotlin-stdlib-jdk7\1.8.0\kotlin-stdlib-jdk7-1.8.0.jar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-io-core-jvm\0.7.0\kotlinx-io-core-jvm-0.7.0.jar
+  .m2.cache\org\jetbrains\kotlinx\kotlinx-io-bytestring-jvm\0.7.0\kotlinx-io-bytestring-jvm-0.7.0.jar
+00:04.952 DEBUG :KtorFramework:compileJvm JvmCompileTask            compile KtorFramework -- main
+00:04.983 DEBUG :KtorFramework:compileJvm ExtractKt                 Skipping extract to C:\Users\User\AppData\Local\JetBrains\Amper\extract.cache\5de2c13edf-amazon-corretto-21.0.1.12.1-windows-x64-jdk.zip.b32cb1.d since flag file C:\Users\User\AppData\Local\JetBrains\Amper\extract.cache\5de2c13edf-amazon-corretto-21.0.1.12.1-windows-x64-jdk.zip.b32cb1.d.flag is correct
+00:05.013 DEBUG :KtorFramework:compileJvm IncrementalCache          [inc] up-to-date according to state file at 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\incremental.state\_KtorFramework_compileJvm-7be63c05ca' in 12.731900ms
+00:05.013 DEBUG :KtorFramework:compileJvm IncrementalCache          [inc] ':KtorFramework:compileJvm' is up-to-date
+00:05.041 DEBUG :KtorFramework:jarJvm     IncrementalCache          [inc] up-to-date according to state file at 'C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\incremental.state\_KtorFramework_jarJvm-45ec930124' in 4.306400ms
+00:05.041 DEBUG :KtorFramework:jarJvm     IncrementalCache          [inc] ':KtorFramework:jarJvm' is up-to-date
+00:05.049 DEBUG :KtorFramework:runJvm     ExtractKt                 Skipping extract to C:\Users\User\AppData\Local\JetBrains\Amper\extract.cache\5de2c13edf-amazon-corretto-21.0.1.12.1-windows-x64-jdk.zip.b32cb1.d since flag file C:\Users\User\AppData\Local\JetBrains\Amper\extract.cache\5de2c13edf-amazon-corretto-21.0.1.12.1-windows-x64-jdk.zip.b32cb1.d.flag is correct
+00:05.062 DEBUG :KtorFramework:runJvm     BuildPrimitives           [cmd] C:\Users\User\AppData\Local\JetBrains\Amper\extract.cache\5de2c13edf-amazon-corretto-21.0.1.12.1-windows-x64-jdk.zip.b32cb1.d\bin\java.exe @C:\Users\User\Documents\GitHub\comp2850-hci-starter\wk06\KtorFramework\build\temp\java-args-11122890156236748150.txt
