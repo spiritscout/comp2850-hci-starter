@@ -18,11 +18,11 @@ import java.io.StringWriter
  * When using IntelliJ: You can ignore the commented imports below - your IDE will handle them.
  */
 
-// Week 7+ imports (inline edit, toggle completion):
-// import model.Task               // When Task becomes separate model class
-// import model.ValidationResult   // For validation errors
-// import renderTemplate            // Extension function from Main.kt
-// import isHtmxRequest             // Extension function from Main.kt
+Week 7+ imports (inline edit, toggle completion):
+import model.Task               // When Task becomes separate model class
+import model.ValidationResult   // For validation errors
+import renderTemplate            // Extension function from Main.kt
+import isHtmxRequest             // Extension function from Main.kt
 
 // Week 8+ imports (pagination, search, URL encoding):
 // import io.ktor.http.encodeURLParameter  // For query parameter encoding
