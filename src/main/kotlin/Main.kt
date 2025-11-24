@@ -12,7 +12,9 @@ import routes.taskRoutes
 import routes.configureHealthCheck
 import utils.SessionData
 import java.io.StringWriter
+import routes.configureEditRoutes
 import io.ktor.util.*
+
 
 /**
  * NOTE FOR NON-INTELLIJ IDEs (VSCode, Eclipse, etc.):
