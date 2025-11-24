@@ -8,15 +8,10 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import io.pebbletemplates.pebble.PebbleEngine
 import java.io.StringWriter
+
+// Correct imports for extension functions defined in Main.kt (Main.kt has no package)
 import renderTemplate
 import isHtmxRequest
-
-
-
-
-
-
-
 
 // import model.Task               // When Task becomes separate model class
 // import model.ValidationResult   // For validation errors
@@ -72,7 +67,8 @@ fun Route.taskRoutes() {
     /**
      * Helper: Check if request is from HTMX
      */
-    fun ApplicationCall.isHtmx(): Boolean = request.headers["HX-Request"]?.equals("true", ignoreCase = true) == true
+    fun ApplicationCall.isHtmx(): Boolean =
+        request.headers["HX-Request"]?.equals("true", ignoreCase = true) == true
 
     /**
      * GET /tasks - List all tasks
@@ -157,15 +153,11 @@ fun Route.taskRoutes() {
 
     // TODO: Week 7 Lab 1 Activity 2 Steps 2-5
     // Add inline edit routes here
-    // Follow instructions in mdbook to implement:
-    // - GET /tasks/{id}/edit - Show edit form (dual-mode)
-    // - POST /tasks/{id}/edit - Save edits with validation (dual-mode)
-    // - GET /tasks/{id}/view - Cancel edit (HTMX only)
 
     /**
-    * GET /tasks/{id}/edit - Show edit form
-    * Dual-mode: HTMX returns _edit.peb fragment, no-JS returns full page
-    */
+     * GET /tasks/{id}/edit - Show edit form
+     * Dual-mode: HTMX returns _edit.peb fragment, no-JS returns full page
+     */
     get("/tasks/{id}/edit") {
         val id = call.parameters["id"]?.toIntOrNull()
         val task = id?.let { TaskRepository.get(it) }
@@ -175,24 +167,26 @@ fun Route.taskRoutes() {
             return@get
         }
 
-        if (call.isHtmx()) {
-            // HTMX: Return just the edit form fragment
+        if (call.isHtmxRequest()) {
+            // HTMX fragment
             val html = call.renderTemplate("tasks/_edit.peb", mapOf("task" to task))
             call.respondText(html, ContentType.Text.Html)
         } else {
-            // No-JS: Return full page with task in edit mode
-            val html = call.renderTemplate("tasks/index.peb", mapOf(
-                "title" to "Edit Task",
-                "tasks" to TaskRepository.all(),
-                "editingTaskId" to id
-            ))
+            // Full page with edit mode
+            val html = call.renderTemplate(
+                "tasks/index.peb",
+                mapOf(
+                    "title" to "Edit Task",
+                    "tasks" to TaskRepository.all(),
+                    "editingTaskId" to id
+                )
+            )
             call.respondText(html, ContentType.Text.Html)
         }
     }
 
     /**
      * POST /tasks/{id}/edit - Save edits
-     * Dual-mode: HTMX returns _item.peb fragment, no-JS redirects to /tasks
      */
     post("/tasks/{id}/edit") {
         val id = call.parameters["id"]?.toIntOrNull()
@@ -204,38 +198,31 @@ fun Route.taskRoutes() {
         }
 
         val updated = TaskRepository.update(id, newTitle)
+            ?: return@post call.respond(HttpStatusCode.NotFound, "Task not found")
 
-        if (updated == null) {
-            call.respond(HttpStatusCode.NotFound, "Task not found")
-            return@post
-        }
-
-        if (call.isHtmx()) {
-            // HTMX: Return updated view mode + status
+        if (call.isHtmxRequest()) {
             val item = call.renderTemplate("tasks/_item.peb", mapOf("task" to updated))
-            val status = """<div id="status" hx-swap-oob="true">Task updated to "${updated.title}".</div>"""
+            val status =
+                """<div id="status" hx-swap-oob="true">Task updated to "${updated.title}".</div>"""
             call.respondText(item + status, ContentType.Text.Html)
         } else {
-            // No-JS: PRG redirect
             call.respondRedirect("/tasks")
         }
     }
 
     /**
      * GET /tasks/{id}/view - Cancel edit (HTMX only)
-     * Returns task in view mode without saving changes
      */
     get("/tasks/{id}/view") {
         val id = call.parameters["id"]?.toIntOrNull()
         val task = id?.let { TaskRepository.get(it) }
 
         if (task == null) {
-        call.respond(HttpStatusCode.NotFound)
-        return@get
+            call.respond(HttpStatusCode.NotFound)
+            return@get
+        }
+
+        val html = call.renderTemplate("tasks/_item.peb", mapOf("task" to task))
+        call.respondText(html, ContentType.Text.Html)
     }
-
-    val html = call.renderTemplate("tasks/_item.peb", mapOf("task" to task))
-    call.respondText(html, ContentType.Text.Html)
-}
-
 }
