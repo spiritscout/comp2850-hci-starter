@@ -24,7 +24,7 @@ import io.ktor.util.*
  */
 
 // Week 7+ imports (inline edit routes):
-import routes.configureEditRoutes  // Separate route file for edit functionality
+// import routes.configureEditRoutes  // Separate route file for edit functionality
 
 // Week 8+ imports (status pages, error handling):
 // import io.ktor.http.ContentType     // For custom error page content types
@@ -175,7 +175,7 @@ suspend fun ApplicationCall.renderTemplate(
  * }
  * ```
  */
-fun ApplicationCall.isHtmxRequest(): Boolean = request.headers["HX-Request"] == "true" 
+fun ApplicationCall.isHtmxRequest(): Boolean = request.headers["HX-Request"] == "true"
 
 /**
  * Configure session handling (privacy-safe anonymous IDs).
